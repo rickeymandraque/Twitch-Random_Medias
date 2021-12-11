@@ -51,7 +51,7 @@ Pour changer les noms par defaut, il suffit de remplacer le nom des dossiers ou 
 Le script va renommer les medias toutes les 10 minutes et ce pendant 3h  
 
 Nous pouvons choisir l'unité de durée du script, qui est en minutes par défaut, avec la variable $During_Time_Units.  
-Les options possible, uniquement en anglais, sont "seconds" ; "minutes" et "days".  
+Les options possible, uniquement en anglais, sont "seconds" ; "minutes" et "days" précédé de "add".  
 
 La variable $Wait_Time, exprimé en secondes, est le temps entre 2 renomage de fichier.  
 La variable $During_Time est le temps d'execution en minutes par defaut.  
@@ -65,10 +65,10 @@ Le temps d'atente doit obligatoirement etre exprimé en secondes.
 
 #### Exemples
 
-    $During_Time_Units = "days" 
-    $During_Time_Units = "hours"
-    $During_Time_Units = "minutes"
-    $During_Time_Units = "seconds"
+    $During_Time_Units = "adddays" 
+    $During_Time_Units = "addhours"
+    $During_Time_Units = "addminutes"
+    $During_Time_Units = "addseconds"
 
 
 ### Extensions de fichiers
