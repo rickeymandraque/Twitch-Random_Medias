@@ -21,13 +21,32 @@ https://www.twitch.tv/plslemon
 - prise en charge d'un fichier .ini pour conserver les parametres
 
 
+# Prérequis
+
+- .NET Framework
+- PowerShell (Forcement !)
+- Pouvoir executer des scripts PowerShell
+
+### Comment autoriser l'execution de scripts PowerShell ?
+
+- Appuyez sur la touche [Windows]+[X] et ouvrez "Windows PowerShell (admin)"
+- Copiez/collez le code suivant, confirmez et quittez.
+
+        Set-ExecutionPolicy Unrestricted
+
 
 # Utilisation
 
 - Placez le script dans un dossier (ex: D:\Twitch\Shakabot)
 - Placez vos médias dans des dossiers séparé (ex: D:\Twitch\Shakabot\Vidéos ; D:\Twitch\Shakabot\Sons)
 - Faites un [MAJ]+[Clic Droit] > "Ouvrir la fenêtre PowerShell ici"
-- Tapez "Twi" et [TAB] pour voir apparaitre " Twitch-Random_Medias.ps1 et tapez [Entrée]
+- Tapez "Twi" et [TAB] pour voir apparaitre " Twitch-Random_Medias.ps1 et tapez [Entrée]  
+
+### Ou
+
+- Placez le script dans un dossier (ex: D:\Twitch\Shakabot)
+- Placez vos médias dans des dossiers séparé (ex: D:\Twitch\Shakabot\Vidéos ; D:\Twitch\Shakabot\Sons)
+- Faites un [Clic Droit] > "Executer avec PowerShell"
 
 
 # Parametrages
