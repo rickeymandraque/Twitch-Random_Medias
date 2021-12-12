@@ -93,6 +93,7 @@ Le temps d'atente doit obligatoirement etre exprimé en secondes.
 ### Extensions de fichiers
 
 Les mp4 et les mkv sont prise en charge grace à la variable $avalable_Ext.  
+(cette fonctionnalité à été retiré pour le moment)
 
      $avalable_Ext = "-include ('*.mp4', '*.mkv')"
 
