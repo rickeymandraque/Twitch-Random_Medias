@@ -9,8 +9,8 @@ https://www.twitch.tv/plslemon
 
 - Auto-Update
 - Choisis une vidéo au hasard
-- Extension mp4 et mkv fonctionelle
-- Possibilité d'ajouter différentes extensions de fichier.
+- Extension mp4 prise en compte
+
 
 ### Fonctionnalité à venir
 
