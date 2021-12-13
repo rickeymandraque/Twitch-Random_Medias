@@ -20,6 +20,9 @@ https://www.twitch.tv/plslemon
 - intégration d'un json contenant les hash pour renommer les medias correctement
 - prise en charge d'un fichier .ini pour conserver les parametres
 
+# Téléchargement
+
+Fait un clic doit [ici](https://raw.githubusercontent.com/rickeymandraque/Twitch-Random_Medias/main/Twitch-Random_Medias.ps1) et "enregistrer sous" ou "enregistrer le liens sous..."
 
 # Prérequis
 
